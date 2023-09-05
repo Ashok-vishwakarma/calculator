@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+h1{
+    color: rgb(213, 226, 236);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    /* background-color: black; */
+    text-size-adjust: solid;
+    font-size: larger;
+    background-color: transparent;
+    border: sienna;
+
+}
+
+body{
+    background-color: rgb(56, 50, 50);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+.button{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: large;
+    text-size-adjust: solid;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;   
+}
+
+.button_eq{
+    color: red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    font-size: x-large; 
+    cursor: pointer;  
+}
+.button:hover{
+    background-color: rgb(194, 197, 196);
+}
+
+#display{
+    width: 335px;
+    height: 80px;
+    border-radius: 1%;
+    font-size: xx-large;
+    direction:rtl;
+    font-display: solid;
+    /* background: transparent; */
+    
+}
